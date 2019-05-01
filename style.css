@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gugi', cursive;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+#bin, #name {
+    color: blueviolet;
+}
+
+#dec, #hearts {
+    color: crimson;
+}
+
+input {
+    line-height: 2;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    width: 30%;
+    font-family: 'Gugi', cursive;
+}
+
+button {
+    background: white;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    font-family: 'Gugi', cursive;
+}
+
+button:hover {
+    cursor: pointer;
+    background: crimson;
+    color: white;
+}
