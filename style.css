@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Gugi');
 
-body {
+div {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     font-family: 'Gugi', cursive;
-    font-size: 2em;
 }
 
 p {
@@ -36,7 +34,7 @@ button {
     background: white;
     border: 2px solid crimson;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
     font-family: 'Gugi', cursive;
 }
@@ -45,4 +43,10 @@ button:hover {
     cursor: pointer;
     background: crimson;
     color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    input {
+        width: 60%;
+    }
 }
